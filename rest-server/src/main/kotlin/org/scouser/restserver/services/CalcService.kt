@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import org.springframework.stereotype.Service
 
 @Service
-class ServerService {
+class CalcService {
     fun getSum(data: JsonNode): JsonNode {
         val x = data.get("x").asDouble()
         val y = data.get("y").asDouble()
