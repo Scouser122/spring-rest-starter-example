@@ -1,0 +1,7 @@
+rest-template:
+  properties:
+    pool-size: 250
+    timeout:
+      connection: 30
+      read: 45
+      connection-manager: 50
