@@ -2,6 +2,6 @@ rest-template:
   properties:
     pool-size: 250
     timeout:
-      connection: 30
-      read: 45
-      connection-manager: 50
+      connection: 3
+      read: 3
+      connection-manager: 10
